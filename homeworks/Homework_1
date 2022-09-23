@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>qr-code-component</title>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap");
+
+      body {
+        background-color: #d5e1ef;
+        height: 880px;
+        width: 1440px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* padding: 70px 0; */
+      }
+
+      div {
+        width: 320px;
+        height: 497px;
+        background-color: #ffffff;
+        border-radius: 20px;
+        overflow: hidden;
+        /* tu rame cdeba ar achveno */
+        padding: 16px;
+      }
+
+      img {
+        max-width: 100%;
+        border-radius: 10px;
+      }
+
+      h1 {
+        color: #1f314f;
+        height: 56px;
+        width: 288px;
+        padding: 16px;
+
+        font-family: "Outfit";
+        /* pirveli aimporteb fonts */
+        font-style: normal;
+        font-weight: 700;
+        font-size: 22px;
+        line-height: 25px;
+        text-align: center;
+        margin: auto;
+        /* uweren imistvis rom blockis 100% daikavos */
+      }
+
+      p {
+        color: #7d889e;
+        height: 57px;
+        width: 256px;
+        font-size: 15px;
+        text-align: center;
+        margin: auto;
+
+        font-family: "Outfit";
+        font-style: normal;
+        font-weight: 400;
+        line-height: 19px;
+        letter-spacing: 0.1875px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div>
+      <img src="./image-qr-code.png" />
+      <h1>
+        Improve your front-end skills by building projects
+      </h1>
+      <p>
+        Scan the QR code to visit Frontend Mentor and take your coding skills to
+        the next level
+      </p>
+    </div>
+  </body>
+</html>
